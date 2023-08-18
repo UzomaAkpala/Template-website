@@ -1,12 +1,17 @@
-import { Outlet } from "react-router-dom";
-
+import { Outlet, useLoaderData } from "react-router-dom";
 import Wrapper from "../assets/wrappers/Dashboard";
 import { Navbar, BigSidebar, SmallSidebar } from "../components";
-
 import { useState, createContext, useContext } from "react";
+
+export const loader = () => {
+  return "hello world";
+};
+
 const DashboardContext = createContext();
 
 const Dashboard = ({ isDarkThemeEnabled }) => {
+  const data = useLoaderData();
+  console.log(data);
   // temp
   const user = { name: "Uzoma" };
 

@@ -32,7 +32,7 @@ const Login = () => {
           name="email"
           defaultValue="francisakpala@yahoo.com"
         />
-        <FormRow type="password" name="password" defaultValue="secret132" />
+        <FormRow type="password" name="password" defaultValue="secret123" />
         <button type="submit" className="btn btn-block" disabled={isSubmitting}>
           {isSubmitting ? "submitting..." : "submit"}
         </button>
