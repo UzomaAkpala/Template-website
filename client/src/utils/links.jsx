@@ -33,7 +33,7 @@ const links = [
 
   {
     text: "admin",
-    path: "admon",
+    path: "admin",
     icon: <MdAdminPanelSettings />,
   },
 ];
