@@ -5444,6 +5444,7 @@ export default StatsContainer;
 ```js
 import { useState } from 'react';
 
+
 import BarChart from './BarChart';
 import AreaChart from './AreaChart';
 import Wrapper from '../assets/wrappers/ChartsContainer';
